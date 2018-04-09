@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body { background-color: #2B2582;
+}
+
+header {
+	background-color: white;
+	padding: 20px;
+}
+
+
+header > h1 {
+	color: #2B2582;
+	text-align: center;
+	font-family: Asap, sans-serif;
+}
+
+.scoreboard { border: 3px solid white;
+	          border-radius: 4px;
+	          width: 200px;
+	          margin: 20px auto;
+	          padding: 15px 20px;
+	          color: white;
+	          font-size: 46px;
+	          font-family: Asap, sans-serif;
+	          text-align: center;
+	          position: relative;
+}
+
+.badge { background-color: #E2584D;
+	     color: white;
+	     font-size: 14px;
+	     font-family: Asap, sans-serif;
+	     padding: 2px;
+}
+
+#user-label { position: absolute;
+	          top: 30px;
+	          left: -18px;
+}
+
+#computer-label { position: absolute;
+	              top: 30px;
+	              right: -21px;
+}
+
+.result { font-size: 40px;
+	      color: white;
+}
+
+.result > p { text-align: center;
+	          font-family: Asap, sans-serif; 
+	          font-weight: bold;
+}
+.choices { text-align: center;
+	       margin-top: 50px;
+}
+.choice {display: inline-block;
+	     border: 4px solid white;
+	     border-radius: 50%;
+	     padding: 11px;
+	     margin: 0 18px;
+	     transition: all 0.3s ease;
+}
+
+.choice:hover { cursor: pointer;
+	            background: #24272E;
+
+}
+
+#actionmessage { text-align: center;
+	             font-family: Asap, sans-serif;
+	             font-size: 20px;
+	             font-weight: bold;
+	             color: white;
+	             margin-top: 20px;
+}
+
+/*.green-glow {
+  border: 4px solid green;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #06531D;
+  display: inline-block;
+}
+
+.red-glow {
+	border: 4px solid red;
+	box-shadow: #980003;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.gray-glow {
+	border: 4px solid gray;
+	box-shadow: #595959;
+	border-radius: 50%;
+	}--*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
